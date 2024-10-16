@@ -16,6 +16,8 @@ export default {
       'yellow-brown': '#EFC875',
       'gold': '#C79832',
       'dark-brown': '#5B2E12',
+      'dark-pink': '#D44393',
+      'light-blue': '#7D99BA',
     },
     extend: {},
   },
