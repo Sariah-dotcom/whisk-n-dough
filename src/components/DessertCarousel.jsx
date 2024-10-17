@@ -20,7 +20,7 @@ export default function DessertCarousel({ children, slidesPerView = 1 }) { // Ac
         // Breakpoint at 640px (mobile)
         640: {
           slidesPerView: 1,
-          spaceBetween: 20,
+          spaceBetween: 10,
         },
         // Breakpoint at 768px (tablet)
         768: {

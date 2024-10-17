@@ -2,14 +2,14 @@ import React from 'react'
 
 export default function Hero() {
   return (
-    <div className='flex flex-col justify-center gap-2 text-center h-screen'>
-      <div>
-        <img className='absolute right-12 -mt-3 h-8' src="/images/text-decor.png" alt="page-decor" />
+    <div className='flex flex-col justify-center items-center gap-5 h-screen text-center lg:flex-row lg:justify-between '>
+      
+      <div className='mt-36 lg:mt-30 lg:text-left lg:pl-20'>
+        <h1 className='font-red-hat font-black text-5xl mb-5 lg:text-7xl'>Freshly Baked, <br /> <span className='text-tan italic'>Sweetly</span> Made.</h1>
+        <p className='font-montserrat font-semibold text-sm lg:text-lg lg:mt-3'>Indulge in the Warmth of Handcrafted Desserts</p>
       </div>
-      <h1 className='font-red-hat font-bold text-4xl'>Freshly Baked, <br /> <span className='text-tan italic'>Sweetly</span> Made.</h1>
-      <img className='absolute left-10 mt-12 h-8 rotate-180' src="/images/text-decor.png" alt="page-decor" />
-
-      <p className='font-montserrat font-semibold text-sm'>Indulge in the Warmth of <br /> Handcrafted Cookies</p>
+      
+      <img className='h-64 lg:h-auto lg:mt-10' src="/images/doodle-2.png" alt="" />
     </div>
   )
 }
