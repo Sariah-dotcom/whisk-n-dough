@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function DessertCard(props) {
   return (
-    <div className='py-3 flex flex-col items-center w-48 text-center text-white bg-tan rounded-t-full border border-dark-brown'>
+    <div className='py-3 flex flex-col items-center w-48 text-center text-white bg-tan rounded-t-full border-2 border-dark-brown'>
       <div>
         <img className='h-36 ' src={props.dessertImg} alt="" />
       </div>

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Promotion() {
   return (
     <div className='bg-dark-pink px-5 py-12 mt-12 flex flex-col gap-5
-     border border-dark-brown text-white items-center lg:flex-row lg:justify-between lg:px-[10rem] lg:mb-[10rem]'>
+     border-2 border-light-pink text-white items-center lg:flex-row lg:justify-between lg:px-[10rem] lg:mb-[10rem]'>
       <div>
 
       <div className='text-center'>

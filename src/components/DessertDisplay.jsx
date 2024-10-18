@@ -12,7 +12,7 @@ export default function DessertDisplay() {
         <p className='font-montserrat font-semibold text-tan'>Satisfy your sweet tooth</p>
       </div>
 
-      <div className='lg:w-1/2'>
+      <div className='w-screen lg:w-1/2'>
       <DessertCarousel slidesPerView={1.3}>
             <SwiperSlide>
                 <DessertCard 

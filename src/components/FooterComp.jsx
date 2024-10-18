@@ -5,7 +5,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function FooterComp() {
   return (
-    <footer className='bg-tan text-center pt-12 pb-4 border text-white mt-12'>
+    <footer className='bg-tan text-center pt-12 pb-4 border-t-2 border-black text-white mt-12'>
         <h3 className='font-bold font-red-hat text-4xl mb-5'>whisk & <br /> dough</h3>
         <ul className='flex gap-2 justify-center font-montserrat text-sm'>
             <li><a href="#">Home</a></li>
