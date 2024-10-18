@@ -32,10 +32,10 @@ export default function AllDesserts({ cartItems, setCartItems }) {
   };
 
   return (
-    <div className='pt-24'>
-      <h2 className='font-red-hat font-black text-3xl mb-5 px-3'>All Desserts</h2>
+    <div className='pt-24 lg:pt-36 lg:flex lg:flex-col lg:items-center'>
+      <h2 className='font-red-hat font-black text-3xl mb-5 px-3 lg:text-4xl lg:mb-10'>All Desserts</h2>
 
-      <div className='flex flex-wrap gap-3 justify-center'>
+      <div className='flex flex-wrap gap-3 justify-center lg:w-1/2'>
         {products.map(product => (
           <ProductCard key={product.id} product={product} addToCart={addToCart} />
         ))}
@@ -44,7 +44,7 @@ export default function AllDesserts({ cartItems, setCartItems }) {
       {/* Button to navigate to cart page */}
       <div className="flex justify-center mt-5">
         <button 
-          className='bg-blue-500 text-white px-4 py-2 rounded-full'
+          className='bg-tan text-white px-4 py-2 rounded-full font-montserrat font-semibold'
           onClick={() => navigate('/cart')}
         >
           View Cart

@@ -4,8 +4,8 @@ export default function Cart({ cartItems = [] }) {
   const totalPrice = cartItems.reduce((total, item) => total + item.price * item.quantity, 0); // Adjust for quantity
 
   return (
-    <div className='pt-24 px-3'>
-      <h2 className='font-red-hat font-black text-3xl mb-5'>Your Cart</h2>
+    <div className='pt-24 px-3 lg:pt-36'>
+      <h2 className='font-red-hat font-black text-3xl mb-5 lg:text-4xl'>Your Cart</h2>
       <h3 className='font-red-hat font-bold text-2xl mb-3'>Total: ${totalPrice.toFixed(2)}</h3> {/* Display total price */}
       
       {cartItems.length === 0 ? (
