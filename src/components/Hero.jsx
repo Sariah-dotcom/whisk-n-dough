@@ -9,7 +9,7 @@ export default function Hero() {
         <p className='font-montserrat font-semibold text-sm px-20 lg:text-lg lg:mt-3 lg:px-0'>Indulge in the Warmth of Handcrafted Desserts</p>
       </div>
       
-      <img className='h-64 lg:h-auto lg:mt-10' src="/images/doodle-2.png" alt="" />
+      <img className='h-64 lg:h-auto lg:mt-10' src="/images/hero-cookies.png" alt="" />
     </div>
   )
 }

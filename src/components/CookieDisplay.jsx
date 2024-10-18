@@ -4,7 +4,7 @@ import CookieCard from './CookieCard'
 export default function CookieDisplay() {
   return (
     <>
-        <div className='text-center mb-10'>
+      <div className='text-center mb-10' id='best-sellers'>
         <h2 className='font-red-hat font-black text-4xl'>Our Best Sellers</h2>
         <p className='font-montserrat font-semibold text-tan'>See what everyone is raving about</p>
       </div>

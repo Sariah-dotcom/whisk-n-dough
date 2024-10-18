@@ -23,8 +23,8 @@ export default function Header() {
       >
         <IoIosClose onClick={showMenu} className="cursor-pointer text-4xl" />
         <Link to='/' onClick={showMenu}>Home</Link>
-        <HashLink to='/' onClick={showMenu}>My Cart</HashLink>
-        <HashLink to='/' onClick={showMenu}>Best Sellers</HashLink>
+        <HashLink to='/cart' onClick={showMenu}>My Cart</HashLink>
+        <HashLink to='/#best-sellers' onClick={showMenu}>Best Sellers</HashLink>
         <Link to='/all-desserts' onClick={showMenu}>All Desserts</Link>
         <HashLink to='/#faqs' onClick={showMenu}>FAQs</HashLink>
       </div>
@@ -35,7 +35,9 @@ export default function Header() {
       <Link to='/'>whisk & dough</Link>
 
       {/* Cart icon */}
-      <MdOutlineShoppingCart />
+      <Link to='/cart'>
+        <MdOutlineShoppingCart />
+      </Link>
     </nav>
   );
 }
