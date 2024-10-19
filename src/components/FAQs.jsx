@@ -4,7 +4,7 @@ import Accordion from './Accordion'
 export default function FAQs() {
   return (
     <div id='faqs' className='flex flex-col gap-5 mb-20 px-3 lg:px-[20rem] lg:mb-[10rem]'>
-        <h2 className='font-red-hat font-black text-4xl text-center'>FAQs</h2>
+        <h2 className='font-red-hat font-black text-3xl text-center mb-3'>FAQs</h2>
     <Accordion 
         accordionTitle='Do you offer gluten-free/vegan options?'
         content='Yes, we offer a selection of gluten-free and vegan desserts! Please check our menu online, and feel free to reach out if you have specific dietary needs.'

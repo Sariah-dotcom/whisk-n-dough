@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { useState } from "react";
 import { IoIosClose } from "react-icons/io";
 
+
 export default function Header() {
   const [getMenuVisible, setMenuVisible] = useState(false);
 
@@ -32,7 +33,9 @@ export default function Header() {
       {/* Menu icon: Toggles the menu */}
       <RiMenu2Fill onClick={showMenu} className="cursor-pointer" />
 
+      {/* Logo */}
       <Link to='/'>whisk & dough</Link>
+      
 
       {/* Cart icon */}
       <Link to='/cart'>

@@ -3,13 +3,14 @@ import DessertCarousel from './DessertCarousel'
 import { SwiperSlide } from 'swiper/react'
 import DessertCard from './DessertCard'
 
+
 export default function DessertDisplay() {
   return (
     <section className='mt-20 mb-20 flex flex-col items-center gap-12 lg:mb-[10rem]'>
       
       <div className='text-center'>
-        <h2 className='font-red-hat font-black text-4xl'>Other Desserts</h2>
-        <p className='font-montserrat font-semibold text-tan'>Satisfy your sweet tooth</p>
+        <h2 className='font-red-hat font-black text-3xl'>Other Desserts</h2>
+        <p className='font-montserrat font-semibold text-gold text-sm'>Satisfy your sweet tooth</p>
       </div>
 
       <div className='w-screen lg:w-1/2 px-3'>
@@ -25,23 +26,23 @@ export default function DessertDisplay() {
             <SwiperSlide>
                 <DessertCard 
                     dessertImg='/images/brownie.png'
-                    dessertName='Brownies'
-                    dessertDescription='description hhhf fhwihwf fhihw hihri'
+                    dessertName='Fudge Brownies'
+                    dessertDescription='Sweet, fudgy and perfect for your cravings!'
                 />
             </SwiperSlide>
 
             <SwiperSlide>
                 <DessertCard 
-                    dessertImg='/images/brownie.png'
-                    dessertName='Brownies'
-                    dessertDescription='description hhhf fhwihwf fhihw hihri'
+                    dessertImg='/images/double-choc-cookie.png'
+                    dessertName='M&Ms Cookie'
+                    dessertDescription='M&Ms and double chocolate cookie'
                 />
             </SwiperSlide>
 
             <SwiperSlide>
                 <DessertCard 
-                    dessertImg='/images/brownie.png'
-                    dessertName='Brownies'
+                    dessertImg='/images/matcha-cookie.png'
+                    dessertName='Matcha Cookie'
                     dessertDescription='description hhhf fhwihwf fhihw hihri'
                 />
             </SwiperSlide>

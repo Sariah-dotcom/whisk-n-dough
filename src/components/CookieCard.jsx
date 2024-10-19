@@ -13,12 +13,12 @@ export default function CookieCard({ bgprimary, borderColor, btnColor, cookieImg
       
       <div className='flex flex-col items-center gap-6 pt-5 pb-12 lg:text-left lg:pb-0 lg:w-[70rem]'>
         <div className='lg:ml-[30rem]'>
-          <h2 className='font-red-hat font-bold text-3xl lg:text-left'>{cookieName}</h2>
-          <p className='font-montserrat'>{cookieDescription}</p>
+          <h2 className='font-red-hat font-black text-3xl mb-3 lg:text-left'>{cookieName}</h2>
+          <p className='font-montserrat text-sm px-3'>{cookieDescription}</p>
         </div>
         
         
-        <div className='flex gap-5 font-montserrat font-semibold lg:ml-[30rem]'>
+        <div className='flex gap-5 font-montserrat font-semibold text-sm lg:ml-[30rem]'>
             <button className='border rounded-full py-3 px-5'>Learn More</button>
             <button className={`${btnColor} rounded-full py-3 px-5`}>Order Now</button>
         </div>
