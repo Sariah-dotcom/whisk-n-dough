@@ -14,7 +14,7 @@ export default function DessertDisplay() {
       </div>
 
       <div className='w-screen lg:w-1/2 px-3'>
-      <DessertCarousel slidesPerView={1.8}>
+      <DessertCarousel slidesPerView={1.6}>
             <SwiperSlide>
                 <DessertCard 
                   dessertImg='/images/cinnamon-roll.png'

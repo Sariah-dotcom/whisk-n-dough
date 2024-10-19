@@ -9,7 +9,7 @@ export default function Cart({ cartItems = [] }) {
       <h3 className='font-red-hat font-bold text-2xl mb-3 text-gold'>Total: ${totalPrice.toFixed(2)}</h3> {/* Display total price */}
       
       {cartItems.length === 0 ? (
-        <p className='font-montserrat font-semibold'>Your cart is empty.</p>
+        <p className='font-montserrat font-semibold text-xs'>Your cart is empty.</p>
       ) : (
         <ul className='flex flex-col gap-3'>
           {cartItems.map((item, index) => (
