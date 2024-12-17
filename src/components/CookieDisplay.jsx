@@ -6,14 +6,14 @@ export default function CookieDisplay() {
   return (
   <>
     <AttentionSeeker effect='tada' fraction='0.5' triggerOnce>
-      <div className='text-center mb-10' id='best-sellers'>
-        <h2 className='font-red-hat font-black text-3xl'>Our Best Sellers</h2>
+      <div className='text-center mb-20' id='best-sellers'>
+        <h2 className='font-red-hat font-black text-3xl lg:text-4xl'>Our Best Sellers</h2>
         <p className='font-montserrat font-semibold text-gold text-sm'>See what everyone is raving about</p>
       </div>
     </AttentionSeeker>
       
 
-    <div className='flex flex-col items-center gap-24 px-5 lg:gap-[12rem] lg:mb-[10rem]'>
+    <div className='flex flex-col items-center gap-24 px-5 lg:gap-[10rem] lg:mb-[10rem]'>
       
       <Fade direction='left' triggerOnce>
         <CookieCard 

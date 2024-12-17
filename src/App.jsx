@@ -26,8 +26,6 @@ export default function App() {
           <Route path='/' element={<Home />} />
           <Route path='/all-desserts' element={<AllDesserts cartItems={cartItems} setCartItems={setCartItems} />} />
           <Route path='/cart' element={<ShoppingCart cartItems={cartItems} />} />
-
-
         </Routes>
         <FooterComp />
       </Router>

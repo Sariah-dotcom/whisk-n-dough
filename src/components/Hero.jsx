@@ -13,7 +13,7 @@ export default function Hero() {
       </Fade>
       
       <Fade direction='up'>
-        <img className='h-64 lg:h-auto lg:mt-10' src="/images/hero-cookies.png" alt="" />
+        <img className='h-64 lg:h-[25rem] lg:mt-10 lg:mr-20' src="/images/hero-cookies.png" alt="" />
       </Fade>
     </div>
   )
