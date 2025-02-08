@@ -6,23 +6,18 @@ export default {
   ],
   theme: {
     fontFamily: {
-      'red-hat': ['Red Hat Display', 'sans-serif'],
+      'bri': ['Bricolage Grotesque', 'serif'],
       'montserrat':['Montserrat', 'sans-serif']
     },
-    colors: {
-      'white': '#FFF',
-      'tan':'#C1A058',
-      'med-brown': '#7E6837',
-      'yellow-brown': '#EFC875',
-      'gold': '#C79832',
-      'dark-brown': '#5B2E12',
-      'dark-pink': '#D44393',
-      'light-pink': '#FF3EDC',
-      'dark-blue': '#2C69AE',
-      'light-blue': '#7D99BA',
-      'black': '#000',
+    extend: {
+      colors: {
+        'grey': '#1E1E1E',
+        'blue': '#D1E9F6',
+        'green': '#BAD8B6',
+        'yellow': '#F6EACB',
+        'pink': '#EECAD5'
+      }
     },
-    extend: {},
   },
   plugins: [],
 }

@@ -5,3 +5,12 @@
 html {
     @apply scroll-smooth;
 }
+
+h1, h2, h3 {
+    font-family: "Bricolage Grotesque", serif;
+    color: #1e1e1e;
+}
+
+p {
+    font-family: "Inter Tight", serif;
+}

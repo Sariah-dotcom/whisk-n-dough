@@ -14,7 +14,7 @@ export default function Header() {
   }
 
   return (
-    <nav className='z-[999] flex justify-between items-center px-3 py-5 font-red-hat font-black text-xl fixed bg-white w-screen border-b-2 lg:py-5 lg:px-10 lg:text-2xl'>
+    <nav className='z-[999] flex justify-between items-center px-3 py-5 text-grey font-bold text-xl fixed bg-white w-screen border-b-2 border-grey lg:py-5 lg:px-10 lg:text-2xl'>
       
       {/* Menu: Show only when getMenuVisible is true */}
       <div
@@ -34,7 +34,7 @@ export default function Header() {
       <RiMenu2Fill onClick={showMenu} className="cursor-pointer" />
 
       {/* Logo */}
-      <Link to='/'>whisk & dough</Link>
+      <Link to='/' className="font-bri">whisk & dough</Link>
       
 
       {/* Cart icon */}

@@ -8,8 +8,7 @@ import ScrollToTop from '../components/ScrollToTop.jsx'
 
 export default function Home() {
   return (
-    <div>
-      <ScrollToTop />
+    <div className='mx-auto'>
        <Hero />
         <CookieDisplay />
         <DessertDisplay />
